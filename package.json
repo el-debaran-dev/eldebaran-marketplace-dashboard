@@ -1,0 +1,36 @@
+{
+  "name": "el-debaran-marketplace-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "description": "El Debaran Marketplace",
+  "scripts": {
+    "develop-admin": "strapi develop --watch-admin",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.20.5",
+    "@strapi/plugin-users-permissions": "4.20.5",
+    "@strapi/plugin-i18n": "4.20.5",
+    "@strapi/plugin-cloud": "4.20.5",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "Al Debaran Dev Team"
+  },
+  "strapi": {
+    "uuid": "97b689f6-f667-4c34-a2c7-41f2066a4707"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
